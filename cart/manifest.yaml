@@ -27,9 +27,10 @@ spec:
    replicas: 1 
   # these are the labels replica set use to cretate pod replicas, thi should match pod labels 
    selector: 
-       component: cart  
-       project: roboshop 
-       tier: app 
+       matchLabels: 
+         component: cart  
+         project: roboshop 
+         tier: app 
    # this is pod definition 
    template: 
        metadata: 
