@@ -17,8 +17,7 @@ data:
 apiVersion: v1 
 kind: Secret 
 metadata: 
-      name: payment 
-      namespace: roboshop 
+      name: payment
       labels: 
            component: rabbitmq 
            project: roboshop 
@@ -36,7 +35,7 @@ metadata:
       namespace: roboshop 
       # deployment labels 
       labels: 
-         component: rabbitmq 
+         component: payment
          project: roboshop 
          tier: app 
 spec: 
@@ -83,5 +82,5 @@ spec:
    - protocol: TCP 
      port: 8080 # service port 
      targetPort: 8080 # container port 
-                 
+
                           
