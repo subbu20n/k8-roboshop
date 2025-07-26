@@ -104,16 +104,16 @@ spec:
           image: subbu2/frontend:v1 
           volumeMounts:
           - name: nginx.conf 
-            mountpath: /etc/nginx/nginx.conf 
-            subpath: nginx.conf 
+            mountPath: /etc/nginx/nginx.conf 
+            subPath: nginx.conf 
             readOnly: true 
         volumes: 
-        - name: nginx.conf 
-          configMap: 
-            name: nginx.conf 
-            items: 
-            - key: nginx.conf 
-              path: nginx.conf       
+         - name: nginx.conf 
+           configMap: 
+             name: nginx.conf 
+             items: 
+              - key: nginx.conf 
+                path: nginx.conf       
 --- 
 apiVersion: v1 
 kind: Service 
