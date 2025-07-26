@@ -63,7 +63,7 @@ spec:
           - secretRef: 
           ports: 
           - containerPort: 8080
-            securityContext:
+          securityContext:
              runAsUser: 0 
                  
 --- 
