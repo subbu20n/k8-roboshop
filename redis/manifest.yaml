@@ -24,7 +24,7 @@ spec:
             project: roboshop 
             tier: database 
       spec: 
-           container: 
+        containers: 
            - name: redis 
              image: redis:7.0 
 --- 
