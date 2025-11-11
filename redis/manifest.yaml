@@ -16,14 +16,14 @@ spec:
          component: redis 
          project: roboshop 
          tier: database 
-      # This is pod definition 
-      template: 
-        metadata: 
-           labels: 
+   # This is pod definition 
+   template: 
+      metadata: 
+         labels: 
               component: redis 
               project: roboshop 
               tier: database 
-        spec: 
+      spec: 
            container: 
            - name: redis 
              image: redis:7.0 
