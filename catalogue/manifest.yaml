@@ -56,7 +56,7 @@ metadata:
         tier: app 
 spec: 
    selector: 
-       components: catalogue 
+       component: catalogue 
        project: roboshop 
        tier: app 
    ports: 
