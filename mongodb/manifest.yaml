@@ -20,7 +20,7 @@ spec:
       metadata: 
          labels: 
              component: mongodb 
-             project: robohsop 
+             project: roboshop 
              tier: database 
       spec: 
          containers: 
