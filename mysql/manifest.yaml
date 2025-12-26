@@ -17,7 +17,7 @@ kind: Deployment
 metadata: 
     name: mysql 
     namespace: roboshop 
-    #deployment labels 
+    #deployment labels  
     labels: 
        component: mysql 
        project: roboshop 

@@ -21,7 +21,7 @@ metadata:
     #deployment labels 
     labels: 
        component: user 
-       project: roboshop 
+       project: roboshop  
        tier: app 
 spec: 
    replicas: 1 

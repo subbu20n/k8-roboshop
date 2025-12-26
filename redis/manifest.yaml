@@ -18,7 +18,7 @@ spec:
          tier: database 
    # This is pod definition 
    template: 
-      metadata: 
+      metadata:  
          labels: 
             component: redis 
             project: roboshop 

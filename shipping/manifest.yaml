@@ -22,7 +22,7 @@ metadata:
       project: roboshop
       tier: app
 spec: 
-  replicas: 1 
+  replicas: 1  
   # These are the labels replicas use to create pod replicas, this should match pod labels 
   selector: 
      matchLabels: 

@@ -18,7 +18,7 @@ apiVersion: v1
 kind: Secret 
 metadata: 
       name: payment
-      labels: 
+      labels:  
            component: rabbitmq 
            project: roboshop 
            tier: app 

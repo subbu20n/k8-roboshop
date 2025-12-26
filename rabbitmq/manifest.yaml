@@ -21,7 +21,7 @@ metadata:
       # deployment labels 
       labels: 
          component: rabbitmq 
-         project: roboshop 
+         project: roboshop  
          tier: database 
 spec: 
    replicas: 

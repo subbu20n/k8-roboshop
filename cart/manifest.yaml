@@ -18,7 +18,7 @@ kind: Deployment
 metadata: 
       name: cart 
       namespace: roboshop 
-      # deployment labels 
+      # deployment labels  
       labels: 
          component: cart 
          project: roboshop 
