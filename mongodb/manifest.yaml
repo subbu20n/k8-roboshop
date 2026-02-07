@@ -34,10 +34,10 @@ metadata:
     namespace: roboshop 
     labels: 
         component: mongodb 
-        project: roboshop 
+        project: roboshop  
         tier: database 
 spec: 
-   selector: 
+   selector:  
        component: mongodb 
        project: roboshop 
        tier: database 
