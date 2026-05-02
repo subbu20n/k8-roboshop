@@ -11,7 +11,7 @@ data:
    REDIS_HOST: "redis" 
    CATALOGUE_HOST: "catalogue" 
    CATALOGUE_PORT: "8080" 
---- 
+---                                                              
 
 apiVersion: apps/v1 
 kind: Deployment 
@@ -20,7 +20,7 @@ metadata:
       namespace: roboshop 
       # deployment labels  
       labels: 
-         component: cart 
+         component: cart  
          project: roboshop 
          tier: app 
 spec:  
