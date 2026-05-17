@@ -125,7 +125,7 @@ metadata:
        project: roboshop 
        tier: web 
 spec: 
-  type: LoadBalancer
+  # type: LoadBalancer
   selector: 
      component: frontend 
      project: roboshop 
