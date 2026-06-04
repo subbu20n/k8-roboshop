@@ -18,7 +18,7 @@ metadata:
      name: catalogue 
      namespace: roboshop  
      #deployment labels  
-     labels: 
+     labels:     
          component: catalogue 
          project: roboshop 
          tier: app 
