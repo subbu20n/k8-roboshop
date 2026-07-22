@@ -17,7 +17,7 @@ apiVersion: apps/v1
 kind: Deployment 
 metadata: 
       name: cart     
-      namespace: roboshop 
+      namespace: roboshop     
       # deployment labels  
       labels: 
          component: cart  
